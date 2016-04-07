@@ -1,0 +1,186 @@
+/*CSS Stylesheet for portfolio webpage - Created by Nigel John for UCF Bootcamp March 7, 2016*/
+
+*{
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	margin: 10px 0 0 0 ;
+}
+
+.main, .wrapper{
+	width: 960px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background-image: url("worn_dots.png");	
+}
+
+.wrapper{
+	margin: 0 auto -4em;
+}
+
+header{
+	width: 960px;
+	height: 65px;
+	float: left;
+	background-color: #ffffff;
+	vertical-align: center;
+}
+
+h3, h4{
+	color: #4aaaa5;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 0 0 20px 0;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name{
+	width: 150px;
+	height: 65px;
+	float: right;
+	margin: 0 495px 0 0;
+	line-height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav{
+	width: 250px;
+	float: right;
+	text-decoration: none;
+	margin: 10px 0 10px 0px;
+	padding: 20px 0px 0 5px;
+	background-color: white;
+}
+
+nav a{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: large;
+	padding: 6px 6px;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+
+a{
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.main{
+	float: right;
+	width: 960px;
+	border-top: solid;
+	border-color: #dddddd;	
+}
+
+section{
+	float: left;
+	width: 620px;
+	height: inherit;
+	margin: 20px 0px 10px 60px;
+	padding: 20px 5px 0px 20px;
+	background-color: #ffffff;
+	color: #9e9e9e;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+section img{
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+aside{
+	float: right;
+	width: 200px;
+	margin: 20px 30px 10px 10px;
+	padding: 20px 5px 30px 5px;
+	background-color: #ffffff;
+	text-align:  center;
+}
+
+input{
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+	border-color: #dddddd;
+	border-style: solid;
+	width: 90%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea{
+	margin: 10px 0px 10px 0px;
+	border-color: #dddddd;
+	border-style: solid;
+	width: 90%;
+}
+
+#button{
+	color: white;
+	background-color: teal;
+	font-size: 14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	border-style: none;
+	padding: 5px 30px 20px 30px;
+	width: 100px;
+}
+
+footer, .push{
+	height: 4em;
+	clear: both;
+}
+
+footer{
+	background-color: #666666;
+	text-align: center;
+	margin: 0 auto;
+	width: 960px;
+	border-top: solid;
+	border-color: #4aaaa5;
+	border-width: 6px;
+	color: #d9d9d9;
+	line-height: 50px;
+	font-size: small;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+.hangimg{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 175px;
+	margin: 5px;
+}
+
+.hangimg img:hover{
+	width: 255px;
+	height: 180px;
+
+}
+
+.hangimg .hangcap{
+	float: right;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	bottom: 0px;
+	left: 0px;
+	color: #ffffff;
+	background: #4aaaa5;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 7px;
+	
+}
+
+
